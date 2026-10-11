@@ -1,0 +1,52 @@
+kali㉿kali)-[~]
+└─$ subfinder -d cnd.com.do -silent -o subfinder_cnd.txt        
+abiorders.cnd.com.do
+cnddosdoadv.cnd.com.do
+www.cnd.com.do
+www.cnddosdoadv.cnd.com.do
+
+┌──(kali㉿kali)-[~]
+└─$  cat subfinder_cnd.txt | dnsx | wc -l
+
+      _             __  __
+   __| | _ __   ___ \ \/ /
+  / _' || '_ \ / __| \  / 
+ | (_| || | | |\__ \ /  \ 
+  \__,_||_| |_||___//_/\_\
+
+                projectdiscovery.io
+
+[INF] Current dnsx version 1.3.1 (latest)
+2
+                           
+┌──(kali㉿kali)-[~]
+└─$ dnsrecon -d cnd.com.do -t std,brt -D /usr/share/seclists/Discovery/DNS/subdomains-top1million-5000.txt
+2026-10-11T08:17:26.669645-0400 INFO Using the dictionary file: /usr/share/dnsrecon/dnsrecon/data/namelist.txt (provided by tool)
+2026-10-11T08:17:26.669930-0400 INFO Starting enumeration for domain: cnd.com.do
+2026-10-11T08:17:26.670563-0400 INFO brt: Performing host and subdomain brute force against cnd.com.do...
+2026-10-11T08:41:34.387665-0400 INFO     CNAME www.cnd.com.do nf4b8il.impervadns.net
+2026-10-11T08:41:34.388555-0400 INFO     A nf4b8il.impervadns.net 45.60.32.211
+2026-10-11T08:42:11.651911-0400 INFO 2 Records Found
+2026-10-11T08:42:11.654265-0400 INFO std: Performing General Enumeration against: cnd.com.do...
+2026-10-11T08:42:14.816460-0400 ERROR No answer for DNSSEC query for cnd.com.do
+2026-10-11T08:42:14.893958-0400 INFO     SOA dns1.cscdns.net 156.154.130.100
+2026-10-11T08:42:14.894335-0400 INFO     SOA dns1.cscdns.net 2610:a1:1022::100
+2026-10-11T08:42:17.019425-0400 INFO     NS dns1.cscdns.net 156.154.130.100
+2026-10-11T08:42:17.160248-0400 INFO     Bind Version for 156.154.130.100 Nameserver"
+2026-10-11T08:42:17.160467-0400 INFO     NS dns1.cscdns.net 2610:a1:1022::100
+2026-10-11T08:42:17.160956-0400 INFO     NS dns2.cscdns.net 156.154.131.100
+2026-10-11T08:42:17.252186-0400 INFO     Bind Version for 156.154.131.100 Nameserver"
+2026-10-11T08:42:17.252384-0400 INFO     NS dns2.cscdns.net 2610:a1:1023::100
+2026-10-11T08:42:42.746630-0400 INFO     MX srvxmsig02.elj.com.do 179.51.67.117
+2026-10-11T08:42:43.046216-0400 INFO     A cnd.com.do 45.60.38.211
+2026-10-11T08:42:43.046461-0400 INFO     A cnd.com.do 45.60.32.211
+2026-10-11T08:42:46.467909-0400 INFO     TXT cnd.com.do =ms47525219
+2026-10-11T08:42:46.468219-0400 INFO     TXT cnd.com.do MS=ms86290085
+2026-10-11T08:42:46.468918-0400 INFO     TXT cnd.com.do MS=D64D354D9E257D0450F88E16F8F0C771FFA248CF
+2026-10-11T08:42:46.469063-0400 INFO     TXT cnd.com.do facebook-domain-verification=13tg4futpfm7xdg8jxoddno7337j50
+2026-10-11T08:42:46.469132-0400 INFO     TXT cnd.com.do facebook-domain-verification=1hky8e4zuycliyh2lbz191tzqvm1z5
+2026-10-11T08:42:46.469189-0400 INFO     TXT cnd.com.do v=spf1 mx a:fundacionelj.org.do ip4:179.51.67.117 ip4:190.122.105.125 include:spf.mandrillapp.com ?all
+2026-10-11T08:42:52.679962-0400 INFO Enumerating SRV Records
+2026-10-11T08:43:20.628171-0400 ERROR No SRV Records Found for cnd.com.do
+2026-10-11T08:43:20.628588-0400 INFO Completed enumeration for domain: cnd.com.do
+                                                                                                                                                                                                                                                                                                                                                                                                        

@@ -1,0 +1,323 @@
+──(kali㉿kali)-[~]
+└─$ cat subfinder_claro.txt               
+llcu-voscluster-controller.claro.com.do
+dns2.cloud.claro.com.do
+lyncdiscoverinternal.claro.com.do
+serviciosonline.claro.com.do
+www.cvpn1.claro.com.do
+www.claro.com.do
+e-cfclarocloud.claro.com.do
+www.claro-empleos.claro.com.do
+cpanel.entrenamiento.claro.com.do
+dialin.claro.com.do
+sgaqa.claro.com.do
+www.ims.claro.com.do
+www.password.autogestion.claro.com.do
+www.vpn3.claro.com.do
+www.wssubpromotor02.claro.com.do
+vpn1.claro.com.do
+api.mi.claro.com.do
+efact.claro.com.do
+api.cert.mi.claro.com.do
+empleos.claro.com.do
+gpsflotilla.claro.com.do
+misapps.claro.com.do
+wac.claro.com.do
+www.sga.claro.com.do
+appgestionnegocio.claro.com.do
+api.nonprod.dev.cloudapps.claro.com.do
+api-test-2-mi.claro.com.do
+clarocine2.claro.com.do
+sgc.claro.com.do
+api.test.mi.claro.com.do
+aplicacion.claro.com.do
+qflowtb.claro.com.do
+tiendaadmin.claro.com.do
+www.api.mi.claro.com.do
+api-test-gest-mi.claro.com.do
+bloqueo1.claro.com.do
+mail.entrenamiento.claro.com.do
+rdc.claro.com.do
+www.subpromotor2.claro.com.do
+app-tracking.claro.com.do
+indacpruebas.claro.com.do
+www.indac.claro.com.do
+wssubpromotor01.claro.com.do
+www.vpn2.claro.com.do
+lcdn.claro.com.do
+adminflota.claro.com.do
+cexpway1.claro.com.do
+www.elabel2.claro.com.do
+www.empleos.claro.com.do
+www.svaweb.claro.com.do
+apps.prod.cloudapps.claro.com.do
+cloudconnect.claro.com.do
+cvmtest.claro.com.do
+mdm.claro.com.do
+mqtt1.claro.com.do
+wssubpromotor02.claro.com.do
+www.api-qa-2.mi.claro.com.do
+www.efact.claro.com.do
+clarowebexdr.claro.com.do
+webex.claro.com.do
+www.erp.claro.com.do
+cazatalentos.claro.com.do
+gestionequipocpe.claro.com.do
+newprod.prod.cloudapps.claro.com.do
+www.clarocine2.claro.com.do
+api-qa.mi.claro.com.do
+www.prepagoenlinea.claro.com.do
+soporte.claro.com.do
+cvm.claro.com.do
+www.bloqueo1.claro.com.do
+www.elabel3.claro.com.do
+www.soporteempresas.claro.com.do
+cloud.claro.com.do
+webmail.entrenamiento.claro.com.do
+apps.dev.cloudapps.claro.com.do
+mi.claro.com.do
+www.api.test.mi.claro.com.do
+www.fbs.claro.com.do
+www.tiendaenlinea.claro.com.do
+disfrm.claro.com.do
+www.tienda.claro.com.do
+www.wssubpromotor03.claro.com.do
+mail.prod.cloudapps.claro.com.do
+disponibilidad.claro.com.do
+miclaro.claro.com.do
+www.cvmtest.claro.com.do
+www.entrenamiento.claro.com.do
+www.portaldemonitoreo.claro.com.do
+www.prepagoenlinea2.claro.com.do
+clarodrsentry.claro.com.do
+www.soporte.claro.com.do
+www.vacantes.claro.com.do
+apps.newprod.prod.cloudapps.claro.com.do
+correoweb.claro.com.do
+efactprueba.claro.com.do
+pontutono.claro.com.do
+www.api.test.2.mi.claro.com.do
+www.bloqueoterceros2.claro.com.do
+www.elabel1.claro.com.do
+www.portaltraficowan.claro.com.do
+phoneprotect1.claro.com.do
+sga.claro.com.do
+soporte2.claro.com.do
+vdi.claro.com.do
+www.drtesbc02.ims.claro.com.do
+appcentral.claro.com.do
+api.test.2.mi.claro.com.do
+drtesbc02.ims.claro.com.do
+mqtt2.claro.com.do
+smartpgateway.claro.com.do
+vpn3.claro.com.do
+www.filiales-claro-empleos.claro.com.do
+password.autogestion.claro.com.do
+www.bloqueoterceros1.claro.com.do
+www.cvm.claro.com.do
+www.miclaro.claro.com.do
+www.mrzprodhostmail01.claro.com.do
+prod.cloudapps.claro.com.do
+soporteempresas.claro.com.do
+autodiscover.claro.com.do
+nonprod.dev.cloudapps.claro.com.do
+tiendaenlinea.claro.com.do
+tonosdeespera.claro.com.do
+contenido.claro.com.do
+e-cfclarocloudprueba.claro.com.do
+av.claro.com.do
+appsec.claro.com.do
+www.videovigilancia.claro.com.do
+api.newprod.prod.cloudapps.claro.com.do
+elabel2.claro.com.do
+svaweb.claro.com.do
+www.edge.claro.com.do
+www.mqtt2.claro.com.do
+www.pontutono.claro.com.do
+www.sistemas.claro.com.do
+vacantes.claro.com.do
+cpcalendars.entrenamiento.claro.com.do
+www.bloqueo2.claro.com.do
+www.tools.claro.com.do
+ipt.claro.com.do
+www.mi.claro.com.do
+www.referidos.claro.com.do
+www.llcu-voscluster-controller.claro.com.do
+subpromotor1.claro.com.do
+www.mdm.claro.com.do
+admin.claro.com.do
+autodiscover.entrenamiento.claro.com.do
+mipagina.claro.com.do
+referidos.claro.com.do
+smartcar.claro.com.do
+asistencia.claro.com.do
+cca.claro.com.do
+ccaqa.claro.com.do
+edge.claro.com.do
+mrzprodhostmail01.claro.com.do
+www.cexpway1.claro.com.do
+cpcontacts.entrenamiento.claro.com.do
+www.clarocine1.claro.com.do
+bloqueo2.claro.com.do
+cvpn1.claro.com.do
+www.gestionequipocpeqa.claro.com.do
+aprendeconclaro.claro.com.do
+cloudapps.claro.com.do
+corpmail.claro.com.do
+www.serviciosonline.claro.com.do
+videovigilancia.claro.com.do
+dns1.cloud.claro.com.do
+controlsva.claro.com.do
+www.mipc.claro.com.do
+www.mqtt1.claro.com.do
+mipc.claro.com.do
+www.controlsva.claro.com.do
+www.misapps.claro.com.do
+www.tiendaadmin.claro.com.do
+sip.claro.com.do
+webdisk.entrenamiento.claro.com.do
+www.gpsflotilla.claro.com.do
+www.vdi.claro.com.do
+bandaancha.claro.com.do
+clarostorage.claro.com.do
+consultatuslineas.claro.com.do
+erp.claro.com.do
+soportenegocios.claro.com.do
+tienda.claro.com.do
+indac.claro.com.do
+portaldemonitoreo.claro.com.do
+www.api-qa.mi.claro.com.do
+www.indacpruebas.claro.com.do
+www.wssubpromotor01.claro.com.do
+clarotv1.claro.com.do
+www.rdc.claro.com.do
+www.subpromotor1.claro.com.do
+fbs.claro.com.do
+phoneprotect2.claro.com.do
+smsweb.claro.com.do
+www.phoneprotect2.claro.com.do
+www.sgc.claro.com.do
+www.sojcasillero.claro.com.do
+clarocine1.claro.com.do
+api-qa-2.mi.claro.com.do
+www.smartpgateway.claro.com.do
+api-cert-mi.claro.com.do
+bloqueoterceros1.claro.com.do
+clarotv2.claro.com.do
+colector1.claro.com.do
+sojcasillero.claro.com.do
+subpromotor2.claro.com.do
+www.clarodrsentry.claro.com.do
+filiales-claro-empleos.claro.com.do
+lyncdiscover.claro.com.do
+elabel3.claro.com.do
+entrenamiento.claro.com.do
+cp.cloud.claro.com.do
+mivoz.claro.com.do
+www.prod.cloudapps.claro.com.do
+www.correoweb.claro.com.do
+api-qa-2-mi.claro.com.do
+mosquitto.apps.newprod.prod.cloudapps.claro.com.do
+www.adminflota.claro.com.do
+www.api.cert.mi.claro.com.do
+gestionequipocpeqa.claro.com.do
+portaltraficowan.claro.com.do
+prepagoenlinea2.claro.com.do
+prepagoenlinea.claro.com.do
+stg.cloudapps.claro.com.do
+webconf.claro.com.do
+www.phoneprotect1.claro.com.do
+wssubpromotor03.claro.com.do
+www.clarotv2.claro.com.do
+www.sgaqa.claro.com.do
+www.tiendacloud.claro.com.do
+www.vpn1.claro.com.do
+qa.cloudapps.claro.com.do
+www.appsec.claro.com.do
+www.gestionequipocpe.claro.com.do
+www.mipagina.claro.com.do
+ims.claro.com.do
+www.disponibilidad.claro.com.do
+www.smartcar.claro.com.do
+tracking.claro.com.do
+apps.nonprod.dev.cloudapps.claro.com.do
+dev.cloudapps.claro.com.do
+tools.claro.com.do
+aplicaciones.claro.com.do
+centrogestionsalud.claro.com.do
+meet.claro.com.do
+tiendacloud.claro.com.do
+www.smsweb.claro.com.do
+flotagsm.claro.com.do
+qflow.claro.com.do
+www.soportenegocios.claro.com.do
+vpn2.claro.com.do
+www.cp.cloud.claro.com.do
+elabel1.claro.com.do
+www.clarotv1.claro.com.do
+www.aplicaciones.claro.com.do
+bloqueoterceros2.claro.com.do
+sistemas.claro.com.do
+claro-empleos.claro.com.do
+
+┌──(kali㉿kali)-[~]
+└─$ cat subfinder_claro.txt | dnsx | wc -l
+
+      _             __  __
+   __| | _ __   ___ \ \/ /
+  / _' || '_ \ / __| \  / 
+ | (_| || | | |\__ \ /  \ 
+  \__,_||_| |_||___//_/\_\
+
+                projectdiscovery.io
+
+[INF] Current dnsx version 1.3.1 (latest)
+126
+
+(kali㉿kali)-[~]
+└─$ dnsrecon -d claro.com.do -t std,brt -D /usr/share/seclists/Discovery/DNS/subdomains-top1million-5000.txt
+2026-10-11T08:46:43.359240-0400 INFO Using the dictionary file: /usr/share/dnsrecon/dnsrecon/data/namelist.txt (provided by tool)
+2026-10-11T08:46:43.359453-0400 INFO Starting enumeration for domain: claro.com.do
+2026-10-11T08:46:43.359653-0400 INFO brt: Performing host and subdomain brute force against claro.com.do...
+2026-10-11T08:48:14.094759-0400 INFO     A autodiscover.claro.com.do 196.3.88.118
+2026-10-11T08:48:14.701028-0400 INFO     A av.claro.com.do 196.3.88.50
+2026-10-11T08:48:26.403234-0400 INFO     A backup.claro.com.do 190.167.104.53
+2026-10-11T08:48:26.403977-0400 INFO     A backup.claro.com.do 190.167.104.52
+2026-10-11T08:48:45.295358-0400 INFO     A blackberry.claro.com.do 196.3.81.180
+2026-10-11T08:50:36.824339-0400 INFO     A corpmail.claro.com.do 196.3.88.118
+2026-10-11T08:50:37.687064-0400 INFO     A correoweb.claro.com.do 69.49.115.94
+2026-10-11T08:54:20.121558-0400 INFO     A erp.claro.com.do 200.88.24.43
+2026-10-11T08:55:48.816977-0400 INFO     A golf.claro.com.do 196.3.88.53
+2026-10-11T08:58:41.349216-0400 INFO     A login.claro.com.do 196.3.88.102
+2026-10-11T08:59:00.691600-0400 INFO     A mail.claro.com.do 66.98.64.53
+2026-10-11T08:59:37.535705-0400 INFO     CNAME mi.claro.com.do miclaro.claro.com.do
+2026-10-11T08:59:37.536164-0400 INFO     A miclaro.claro.com.do 196.3.88.116
+2026-10-11T09:00:16.025558-0400 INFO     A mx.claro.com.do 196.3.81.51
+2026-10-11T09:03:39.879395-0400 INFO     A portal.claro.com.do 196.3.81.180
+2026-10-11T09:05:28.067564-0400 INFO     A sc.claro.com.do 190.167.213.73
+2026-10-11T09:06:09.228766-0400 INFO     A sm.claro.com.do 196.3.88.45
+2026-10-11T09:06:09.896611-0400 INFO     A sms.claro.com.do 196.3.81.45
+2026-10-11T09:06:21.946946-0400 INFO     CNAME soporte.claro.com.do d9kw0pxa9bed7.cloudfront.net
+2026-10-11T09:06:21.947338-0400 INFO     A d9kw0pxa9bed7.cloudfront.net 3.166.135.3
+2026-10-11T09:06:21.947445-0400 INFO     A d9kw0pxa9bed7.cloudfront.net 3.166.135.37
+2026-10-11T09:06:21.947546-0400 INFO     A d9kw0pxa9bed7.cloudfront.net 3.166.135.125
+2026-10-11T09:06:21.947649-0400 INFO     A d9kw0pxa9bed7.cloudfront.net 3.166.135.4
+2026-10-11T09:06:21.947717-0400 INFO     CNAME soporte.claro.com.do d9kw0pxa9bed7.cloudfront.net
+2026-10-11T09:06:21.947795-0400 INFO     AAAA d9kw0pxa9bed7.cloudfront.net 2600:9000:279e:e600:15:139f:9ec0:93a1
+2026-10-11T09:06:21.947878-0400 INFO     AAAA d9kw0pxa9bed7.cloudfront.net 2600:9000:279e:7200:15:139f:9ec0:93a1
+2026-10-11T09:06:21.947926-0400 INFO     AAAA d9kw0pxa9bed7.cloudfront.net 2600:9000:279e:c000:15:139f:9ec0:93a1
+2026-10-11T09:06:21.948022-0400 INFO     AAAA d9kw0pxa9bed7.cloudfront.net 2600:9000:279e:6200:15:139f:9ec0:93a1
+2026-10-11T09:06:21.948124-0400 INFO     AAAA d9kw0pxa9bed7.cloudfront.net 2600:9000:279e:2c00:15:139f:9ec0:93a1
+2026-10-11T09:06:21.948175-0400 INFO     AAAA d9kw0pxa9bed7.cloudfront.net 2600:9000:279e:5600:15:139f:9ec0:93a1
+2026-10-11T09:06:21.948246-0400 INFO     AAAA d9kw0pxa9bed7.cloudfront.net 2600:9000:279e:7400:15:139f:9ec0:93a1
+2026-10-11T09:06:21.948332-0400 INFO     AAAA d9kw0pxa9bed7.cloudfront.net 2600:9000:279e:7600:15:139f:9ec0:93a1
+2026-10-11T09:06:54.296529-0400 INFO     A storage.claro.com.do 190.167.104.55
+2026-10-11T09:07:57.772850-0400 INFO     A tienda.claro.com.do 196.3.88.66
+2026-10-11T09:09:16.653171-0400 INFO     A vpn1.claro.com.do 196.3.88.74
+2026-10-11T09:09:17.127222-0400 INFO     A vpn2.claro.com.do 196.3.88.84
+2026-10-11T09:10:37.884611-0400 INFO     CNAME www.claro.com.do www.claro.com.do.edgekey.net
+2026-10-11T09:10:37.884914-0400 INFO     CNAME www.claro.com.do.edgekey.net e94504.dscb.akamaiedge.net
+2026-10-11T09:10:37.885018-0400 INFO     A e94504.dscb.akamaiedge.net 23.219.2.215
+2026-10-11T09:10:37.885132-0400 INFO     A e94504.dscb.akamaiedge.net 23.219.2.206
+2026-10-11T09:10:37.885238-0400 INFO     CNAME www.claro.com.do www.claro.com.do.edgekey.net
+2026-10-11T09:10:37.885390-0400 INFO     CNAME www.claro.com.do.edgekey.net e94504.dscb.akamaiedge.net

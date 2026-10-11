@@ -1,0 +1,315 @@
+┌──(kali㉿kali)-[~]
+└─$ subfinder -d bhd.com.do -silent -o subfinder_bhd.txt        
+boton-sqa.bhd.com.do
+isr4451-op-no6.bhd.com.do
+onboardingmbp-sqa.bhd.com.do
+suppliers.bhd.com.do
+www.ib2fa.bhd.com.do
+app.bhd.com.do
+billet-api.bhd.com.do
+encuestasbhd.bhd.com.do
+expe02.bhd.com.do
+ibpanama-api.bhd.com.do
+pagadores.bhd.com.do
+preview.bhd.com.do
+teseo.bhd.com.do
+qa.bhd.com.do
+ibp-api.bhd.com.do
+gentebhd.bhd.com.do
+ib2fa.bhd.com.do
+www.backend.preview.bhd.com.do
+www.isr4451-op-no6.bhd.com.do
+zbdotc-wa02.bhd.com.do
+av.bhd.com.do
+l.bhd.com.do
+open.bhd.com.do
+remeclick.bhd.com.do
+api-ppd.bhd.com.do
+clusterexpe.bhd.com.do
+solucionescomexdigital.bhd.com.do
+ibe-api.bhd.com.do
+mtls-api.bhd.com.do
+www.checksecure.bhd.com.do
+zwt.bhd.com.do
+ibp.bhd.com.do
+maps.bhd.com.do
+ib.bhd.com.do
+mail10.bhd.com.do
+api-mtls-ppd-np.bhd.com.do
+app2.bhd.com.do
+canales.bhd.com.do
+capitals-remesas-secure-dev.bhd.com.do
+dev.bhd.com.do
+mbe-api.bhd.com.do
+remesas.bhd.com.do
+status.dev.bhd.com.do
+promocionesbanco.bhd.com.do
+api-gw.bhd.com.do
+api-ibp-ppd-np.bhd.com.do
+backend.preview.bhd.com.do
+expe01.bhd.com.do
+solicitartarjeta.bhd.com.do
+www.preview.bhd.com.do
+bdp.bhd.com.do
+api-dev.bhd.com.do
+beisbol.bhd.com.do
+if.bhd.com.do
+search.preview.bhd.com.do
+www.finanzasresponsables.bhd.com.do
+mail9.bhd.com.do
+bankoffice.bhd.com.do
+generico-canales-api.bhd.com.do
+j.bhd.com.do
+sftpdev.bhd.com.do
+stfdev.bhd.com.do
+veo-api.bhd.com.do
+www.ibp.bhd.com.do
+backend.bhd.com.do
+bdp-api.bhd.com.do
+checksecure.bhd.com.do
+compromiso.bhd.com.do
+mifleximovil.bhd.com.do
+w.bhd.com.do
+gente.bhd.com.do
+bienestar.bhd.com.do
+mifleximovil-wa01.bhd.com.do
+solicitartarjeta2.bhd.com.do
+zbdoctap.bhd.com.do
+api-ibp-np.bhd.com.do
+memorias.bhd.com.do
+remesasenlinea.bhd.com.do
+sonarqube.dev.bhd.com.do
+tdc-api.bhd.com.do
+www.maps.bhd.com.do
+zbdoctap-wa01.bhd.com.do
+finanzasresponsables.bhd.com.do
+omnex-remesas-secure-dev.bhd.com.do
+radarpymes.bhd.com.do
+remesas-api.bhd.com.do
+zbdotc-wa01.bhd.com.do
+autodiscover.bhd.com.do
+static.bhd.com.do
+ecf.bhd.com.do
+mbp-api.bhd.com.do
+static.preview.bhd.com.do
+
+(kali㉿kali)-[~]
+
+└─$ cat subfinder_bhd.txt | dnsx | wc -l
+
+
+
+      _             __  __
+
+   __| | _ __   ___ \ \/ /
+
+  / _' || '_ \ / __| \  / 
+
+ | (_| || | | |\__ \ /  \ 
+
+  \__,_||_| |_||___//_/\_\
+
+
+
+                projectdiscovery.io
+
+
+
+[INF] Current dnsx version 1.3.1 (latest)
+
+84
+                                                                                                                                                                                                      
+┌──(kali㉿kali)-[~]
+└─$ dnsrecon -d bhd.com.do -t std,brt -D /usr/share/seclists/Discovery/DNS/subdomains-top1million-5000.txt
+2026-10-11T08:19:14.584971-0400 INFO Using the dictionary file: /usr/share/dnsrecon/dnsrecon/data/namelist.txt (provided by tool)
+2026-10-11T08:19:14.585188-0400 INFO Starting enumeration for domain: bhd.com.do
+2026-10-11T08:19:14.585489-0400 INFO std: Performing General Enumeration against: bhd.com.do...
+2026-10-11T08:19:17.765086-0400 ERROR No answer for DNSSEC query for bhd.com.do
+2026-10-11T08:19:18.837110-0400 INFO     SOA ns1-09.azure-dns.com 13.107.236.9
+2026-10-11T08:19:18.837734-0400 INFO     SOA ns1-09.azure-dns.com 2603:1061:0:700::9
+2026-10-11T08:19:20.376186-0400 INFO     NS ns1-09.azure-dns.com 13.107.236.9
+2026-10-11T08:19:20.512490-0400 INFO     NS ns1-09.azure-dns.com 2603:1061:0:700::9
+2026-10-11T08:19:20.513402-0400 INFO     NS ns2-09.azure-dns.net 150.171.21.9
+2026-10-11T08:19:20.668641-0400 INFO     Bind Version for 150.171.21.9 3.1.2.1770717641.d6b376aff"
+2026-10-11T08:19:20.668805-0400 INFO     NS ns2-09.azure-dns.net 2620:1ec:8ec:700::9
+2026-10-11T08:19:20.669079-0400 INFO     NS ns3-09.azure-dns.org 204.14.183.9
+2026-10-11T08:19:20.782960-0400 INFO     NS ns3-09.azure-dns.org 2a01:111:4000:700::9
+2026-10-11T08:19:20.783594-0400 INFO     NS ns4-09.azure-dns.info 208.84.5.9
+2026-10-11T08:19:20.918341-0400 INFO     Bind Version for 208.84.5.9 3.1.2.1770717641.d6b376aff"
+2026-10-11T08:19:20.918516-0400 INFO     NS ns4-09.azure-dns.info 2620:1ec:bda:700::9
+2026-10-11T08:19:25.515087-0400 INFO     MX mail9.bhd.com.do 204.126.128.39
+2026-10-11T08:19:25.515502-0400 INFO     MX mail9.bhd.com.do 204.126.129.39
+2026-10-11T08:19:25.515574-0400 INFO     MX bhd-com-do.mail.protection.outlook.com 52.101.41.28
+2026-10-11T08:19:25.515623-0400 INFO     MX bhd-com-do.mail.protection.outlook.com 52.101.41.26
+2026-10-11T08:19:25.515658-0400 INFO     MX bhd-com-do.mail.protection.outlook.com 52.101.194.4
+2026-10-11T08:19:25.515703-0400 INFO     MX bhd-com-do.mail.protection.outlook.com 52.101.60.176
+2026-10-11T08:19:25.515784-0400 INFO     MX mail10.bhd.com.do 179.51.75.150
+2026-10-11T08:19:25.515951-0400 INFO     MX mail10.bhd.com.do 204.126.128.70
+2026-10-11T08:19:25.516080-0400 INFO     MX mail10.bhd.com.do 204.126.129.70
+2026-10-11T08:19:25.516160-0400 INFO     MX mail10.bhd.com.do 179.51.75.147
+2026-10-11T08:19:25.516306-0400 INFO     MX mail10.bhd.com.do 191.97.105.55
+2026-10-11T08:19:25.516413-0400 INFO     MX mail10.bhd.com.do 186.120.96.62
+2026-10-11T08:19:25.516472-0400 INFO     MX mail10.bhd.com.do 186.120.96.58
+2026-10-11T08:19:25.516507-0400 INFO     MX bhd-com-do.mail.protection.outlook.com 2a01:111:f403:c91d::b
+2026-10-11T08:19:25.516533-0400 INFO     MX bhd-com-do.mail.protection.outlook.com 2a01:111:f403:f90f::1
+2026-10-11T08:19:25.516567-0400 INFO     MX bhd-com-do.mail.protection.outlook.com 2a01:111:f403:c946::
+2026-10-11T08:19:25.516604-0400 INFO     MX bhd-com-do.mail.protection.outlook.com 2a01:111:f403:f909::d
+2026-10-11T08:19:26.195462-0400 INFO     A bhd.com.do 15.197.95.40
+2026-10-11T08:19:26.195744-0400 INFO     A bhd.com.do 52.223.13.11
+2026-10-11T08:19:27.004410-0400 INFO     TXT bhd.com.do MS=ms37900678
+2026-10-11T08:19:27.004726-0400 INFO     TXT bhd.com.do v=spf1 include:spf.protection.outlook.com include:_spf.mailgun.org include:spf.sendinblue.com include:_spf.salesforce.com include:amazonses.com ip4:108.181.19.82 ip4:64.251.30.58 ip4:3.93.93.48/29 ip4:104.47.73.10 ip4:104.47.73.138 ip4:204.126.128.0/25 ip4:204.126.129.0/25  ip4:23.103.224.0/19 ip4:40.103.0.0/16 ip4:52.8.140.255 ip4:35.169.47.31 ip4:54.164.132.26 ip4:18.217.82.134 include:spfa.cpmails.com ip4:179.51.75.147 ip4:186.120.96.58 ip4:186.120.96.62 ip4:179.51.75.150 -all
+2026-10-11T08:19:27.004831-0400 INFO     TXT bhd.com.do 2Ci4vnEBl2JbKhmymrkvxbSWSPxYO+N4jDEMBlNgqNODj/EFcSh/ymWDNcvkESyZD/Q0qROsd8+V50aJceTEHg==
+2026-10-11T08:19:27.004937-0400 INFO     TXT bhd.com.do facebook-domain-verification=lvr9w4b6haxtecvyznfeilqu1b8h6y
+2026-10-11T08:19:27.005000-0400 INFO     TXT bhd.com.do cisco-ci-domain-verification=5f5e5296111d8e0e247b016a4fb4fb4ea04935ff92bfeb111b654044c16decbf
+2026-10-11T08:19:27.005081-0400 INFO     TXT bhd.com.do scnv-verification=f38e5b951704db9a0e775ae00f8faea1:b397a19389c723c130f03a0df31ff99b:c5cf069299054db491de525986f5bb94
+2026-10-11T08:19:27.005183-0400 INFO     TXT bhd.com.do scnv-verification=d54cebc11da24e3cf14f70af07ec95a8:b40e465a9ff780a308a0b0f46a17c109:1ea7ffcd483048488265fe6257c9e2db
+2026-10-11T08:19:27.005264-0400 INFO     TXT bhd.com.do google-site-verification=CghLi0lI1Jj5ymdtzMHJwlb84BNhrP8NR0T50wsobFY
+2026-10-11T08:19:27.005313-0400 INFO     TXT bhd.com.do apple-domain-verification=nWqnHPON1BG90bpM
+2026-10-11T08:19:27.005380-0400 INFO     TXT bhd.com.do mbyqv1vx9tyl2jl6m18y6w9p96p2zqrk
+2026-10-11T08:19:27.005454-0400 INFO     TXT bhd.com.do e6BuNT3kBMaN0bTVqb/NUrV7ZZxG6TT6HBn6S8XakHmVF4SBIAXcHfWpuUGleTPNCQdXyCFMBNbySk6DrGVbZQ==
+2026-10-11T08:19:27.005532-0400 INFO     TXT bhd.com.do google-site-verification=DfuITtCNjxiC3_sxeX6Wa83bfVFasU8rrlk50JHb_i8
+2026-10-11T08:19:27.005577-0400 INFO     TXT bhd.com.do google-site-verification=Cw0cBaX2rx_1yZHbY9Z8Rqk0cC83bsF5kXgCRUwK_mM
+2026-10-11T08:19:27.005643-0400 INFO     TXT bhd.com.do anthropic-domain-verification-93s6qh=eCULjMp6bsU8eh8hKhw0HEeNV
+2026-10-11T08:19:27.005687-0400 INFO     TXT _dmarc.bhd.com.do v=DMARC1; p=reject; fo=1; ruf=mailto:userv_dmarcreport@bhd.com.do,mailto:bancobhd@us.cp-dmarc.com; rua=mailto:bancobhd@us.cp-dmarc.com,mailto:userv_dmarcreport@bhd.com.do;
+2026-10-11T08:19:30.464325-0400 INFO Enumerating SRV Records
+2026-10-11T08:19:31.243323-0400 INFO     SRV _sip._udp.bhd.com.do expe1.bhd.com.do 204.126.129.63 5060
+2026-10-11T08:19:31.244470-0400 INFO     SRV _sip._udp.bhd.com.do expe1.bhd.com.do 204.126.128.63 5060
+2026-10-11T08:19:31.952289-0400 INFO     SRV _sips._tcp.bhd.com.do expe01.bhd.com.do 204.126.128.112 5061
+2026-10-11T08:19:31.952946-0400 INFO     SRV _sips._tcp.bhd.com.do expe02.bhd.com.do 204.126.129.112 5061
+2026-10-11T08:19:31.955644-0400 INFO     SRV _sip._tcp.bhd.com.do expe01.bhd.com.do 204.126.128.112 5060
+2026-10-11T08:19:31.955871-0400 INFO     SRV _sip._tcp.bhd.com.do expe02.bhd.com.do 204.126.129.112 5660
+2026-10-11T08:19:34.427340-0400 INFO     SRV _h323cs._tcp.bhd.com.do expe01.bhd.com.do 204.126.128.112 1720
+2026-10-11T08:19:34.428027-0400 INFO     SRV _h323cs._tcp.bhd.com.do expe02.bhd.com.do 204.126.129.112 1720
+2026-10-11T08:19:37.101919-0400 INFO     SRV _h323ls._udp.bhd.com.do expe1.bhd.com.do 204.126.128.63 1719
+2026-10-11T08:19:37.102231-0400 INFO     SRV _h323ls._udp.bhd.com.do expe1.bhd.com.do 204.126.129.63 1719
+2026-10-11T08:19:54.525150-0400 INFO     SRV _autodiscover._tcp.bhd.com.do intramail.bhd.com.do 204.126.129.22 443
+2026-10-11T08:19:56.168689-0400 INFO 11 Records Found
+2026-10-11T08:19:56.169014-0400 INFO brt: Performing host and subdomain brute force against bhd.com.do...
+2026-10-11T08:21:08.032178-0400 INFO     A app.bhd.com.do 204.126.128.80
+2026-10-11T08:21:08.032753-0400 INFO     A app.bhd.com.do 204.126.129.80
+2026-10-11T08:21:26.659046-0400 INFO     A autodiscover.bhd.com.do 204.126.129.22
+2026-10-11T08:21:27.346944-0400 INFO     A av.bhd.com.do 204.126.128.31
+2026-10-11T08:21:27.347256-0400 INFO     A av.bhd.com.do 204.126.129.31
+2026-10-11T08:21:39.344826-0400 INFO     CNAME backend.bhd.com.do backendbhdcomdo.5b83c0ef-708f-40b3-96c3-33f47941d046.0f0cd1cc894b.i2.checkpoint.com
+2026-10-11T08:21:39.345326-0400 INFO     CNAME backendbhdcomdo.5b83c0ef-708f-40b3-96c3-33f47941d046.0f0cd1cc894b.i2.checkpoint.com di8od2awlh3b2.cloudfront.net
+2026-10-11T08:21:39.345451-0400 INFO     A di8od2awlh3b2.cloudfront.net 13.249.96.19
+2026-10-11T08:21:39.345586-0400 INFO     A di8od2awlh3b2.cloudfront.net 13.249.96.79
+2026-10-11T08:21:39.345808-0400 INFO     A di8od2awlh3b2.cloudfront.net 13.249.96.46
+2026-10-11T08:21:39.346135-0400 INFO     A di8od2awlh3b2.cloudfront.net 13.249.96.49
+2026-10-11T08:22:16.575024-0400 INFO     A broker.bhd.com.do 52.184.147.53
+2026-10-11T08:26:18.919700-0400 INFO     CNAME dev.bhd.com.do d2kbk0uartxbxg.cloudfront.net
+2026-10-11T08:26:18.920294-0400 INFO     A d2kbk0uartxbxg.cloudfront.net 54.240.184.38
+2026-10-11T08:26:18.920399-0400 INFO     A d2kbk0uartxbxg.cloudfront.net 54.240.184.53
+2026-10-11T08:26:18.920541-0400 INFO     A d2kbk0uartxbxg.cloudfront.net 54.240.184.43
+2026-10-11T08:26:18.920651-0400 INFO     A d2kbk0uartxbxg.cloudfront.net 54.240.184.15
+2026-10-11T08:26:18.920761-0400 INFO     CNAME dev.bhd.com.do d2kbk0uartxbxg.cloudfront.net
+2026-10-11T08:26:18.920872-0400 INFO     AAAA d2kbk0uartxbxg.cloudfront.net 2600:9000:2211:f600:1b:5418:e900:93a1
+2026-10-11T08:26:18.920983-0400 INFO     AAAA d2kbk0uartxbxg.cloudfront.net 2600:9000:2211:b400:1b:5418:e900:93a1
+2026-10-11T08:26:18.921093-0400 INFO     AAAA d2kbk0uartxbxg.cloudfront.net 2600:9000:2211:c000:1b:5418:e900:93a1
+2026-10-11T08:26:18.921203-0400 INFO     AAAA d2kbk0uartxbxg.cloudfront.net 2600:9000:2211:8e00:1b:5418:e900:93a1
+2026-10-11T08:26:18.921276-0400 INFO     AAAA d2kbk0uartxbxg.cloudfront.net 2600:9000:2211:4e00:1b:5418:e900:93a1
+2026-10-11T08:26:18.921321-0400 INFO     AAAA d2kbk0uartxbxg.cloudfront.net 2600:9000:2211:800:1b:5418:e900:93a1
+2026-10-11T08:26:18.921353-0400 INFO     AAAA d2kbk0uartxbxg.cloudfront.net 2600:9000:2211:6000:1b:5418:e900:93a1
+2026-10-11T08:26:18.921380-0400 INFO     AAAA d2kbk0uartxbxg.cloudfront.net 2600:9000:2211:5800:1b:5418:e900:93a1
+2026-10-11T08:27:21.352518-0400 INFO     A empresas.bhd.com.do 204.126.128.77
+2026-10-11T08:27:21.354216-0400 INFO     A empresas.bhd.com.do 204.126.129.77
+2026-10-11T08:28:24.159473-0400 INFO     A fs.bhd.com.do 204.126.128.22
+2026-10-11T08:30:41.212713-0400 INFO     CNAME j.bhd.com.do bcdn-god.we-stats.com
+2026-10-11T08:30:41.213079-0400 INFO     CNAME bcdn-god.we-stats.com d2rikquc8s9owl.cloudfront.net
+2026-10-11T08:30:41.213226-0400 INFO     A d2rikquc8s9owl.cloudfront.net 54.240.184.51
+2026-10-11T08:30:41.213367-0400 INFO     A d2rikquc8s9owl.cloudfront.net 54.240.184.22
+2026-10-11T08:30:41.213475-0400 INFO     A d2rikquc8s9owl.cloudfront.net 54.240.184.86
+2026-10-11T08:30:41.213562-0400 INFO     A d2rikquc8s9owl.cloudfront.net 54.240.184.40
+2026-10-11T08:30:41.213643-0400 INFO     CNAME j.bhd.com.do bcdn-god.we-stats.com
+2026-10-11T08:30:41.213724-0400 INFO     CNAME bcdn-god.we-stats.com d2rikquc8s9owl.cloudfront.net
+2026-10-11T08:30:41.213818-0400 INFO     AAAA d2rikquc8s9owl.cloudfront.net 2600:9000:2211:b400:10:fcf8:9540:93a1
+2026-10-11T08:30:41.213902-0400 INFO     AAAA d2rikquc8s9owl.cloudfront.net 2600:9000:2211:b800:10:fcf8:9540:93a1
+2026-10-11T08:30:41.213952-0400 INFO     AAAA d2rikquc8s9owl.cloudfront.net 2600:9000:2211:dc00:10:fcf8:9540:93a1
+2026-10-11T08:30:41.214101-0400 INFO     AAAA d2rikquc8s9owl.cloudfront.net 2600:9000:2211:2200:10:fcf8:9540:93a1
+2026-10-11T08:30:41.214215-0400 INFO     AAAA d2rikquc8s9owl.cloudfront.net 2600:9000:2211:5600:10:fcf8:9540:93a1
+2026-10-11T08:30:41.214295-0400 INFO     AAAA d2rikquc8s9owl.cloudfront.net 2600:9000:2211:9800:10:fcf8:9540:93a1
+2026-10-11T08:30:41.214655-0400 INFO     AAAA d2rikquc8s9owl.cloudfront.net 2600:9000:2211:5a00:10:fcf8:9540:93a1
+2026-10-11T08:30:41.214755-0400 INFO     AAAA d2rikquc8s9owl.cloudfront.net 2600:9000:2211:d600:10:fcf8:9540:93a1
+2026-10-11T08:31:12.297601-0400 INFO     CNAME l.bhd.com.do log-c803f5ba.us.v2.we-stats.com
+2026-10-11T08:31:12.297886-0400 INFO     A log-c803f5ba.us.v2.we-stats.com 52.230.151.60
+2026-10-11T08:31:30.306741-0400 INFO     CNAME link.bhd.com.do linkbhdcomdo.5b83c0ef-708f-40b3-96c3-33f47941d046.16e3a4e0d79f.i2.checkpoint.com
+2026-10-11T08:31:30.307135-0400 INFO     CNAME linkbhdcomdo.5b83c0ef-708f-40b3-96c3-33f47941d046.16e3a4e0d79f.i2.checkpoint.com d3e6oxvqr6fj31.cloudfront.net
+2026-10-11T08:31:30.307287-0400 INFO     A d3e6oxvqr6fj31.cloudfront.net 3.166.135.85
+2026-10-11T08:31:30.307397-0400 INFO     A d3e6oxvqr6fj31.cloudfront.net 3.166.135.25
+2026-10-11T08:31:30.307490-0400 INFO     A d3e6oxvqr6fj31.cloudfront.net 3.166.135.30
+2026-10-11T08:31:30.307579-0400 INFO     A d3e6oxvqr6fj31.cloudfront.net 3.166.135.123
+2026-10-11T08:31:30.307675-0400 INFO     CNAME link.bhd.com.do linkbhdcomdo.5b83c0ef-708f-40b3-96c3-33f47941d046.16e3a4e0d79f.i2.checkpoint.com
+2026-10-11T08:31:30.307773-0400 INFO     CNAME linkbhdcomdo.5b83c0ef-708f-40b3-96c3-33f47941d046.16e3a4e0d79f.i2.checkpoint.com d3e6oxvqr6fj31.cloudfront.net
+2026-10-11T08:31:30.307853-0400 INFO     AAAA d3e6oxvqr6fj31.cloudfront.net 2600:9000:279e:d400:d:f9a0:1740:93a1
+2026-10-11T08:31:30.307945-0400 INFO     AAAA d3e6oxvqr6fj31.cloudfront.net 2600:9000:279e:1e00:d:f9a0:1740:93a1
+2026-10-11T08:31:30.308044-0400 INFO     AAAA d3e6oxvqr6fj31.cloudfront.net 2600:9000:279e:ae00:d:f9a0:1740:93a1
+2026-10-11T08:31:30.308113-0400 INFO     AAAA d3e6oxvqr6fj31.cloudfront.net 2600:9000:279e:600:d:f9a0:1740:93a1
+2026-10-11T08:31:30.308173-0400 INFO     AAAA d3e6oxvqr6fj31.cloudfront.net 2600:9000:279e:c400:d:f9a0:1740:93a1
+2026-10-11T08:31:30.308395-0400 INFO     AAAA d3e6oxvqr6fj31.cloudfront.net 2600:9000:279e:7400:d:f9a0:1740:93a1
+2026-10-11T08:31:30.308452-0400 INFO     AAAA d3e6oxvqr6fj31.cloudfront.net 2600:9000:279e:5c00:d:f9a0:1740:93a1
+2026-10-11T08:31:30.308539-0400 INFO     AAAA d3e6oxvqr6fj31.cloudfront.net 2600:9000:279e:9a00:d:f9a0:1740:93a1
+2026-10-11T08:32:01.264608-0400 INFO     A m.bhd.com.do 204.126.128.65
+2026-10-11T08:32:01.264919-0400 INFO     A m.bhd.com.do 204.126.129.65
+2026-10-11T08:32:27.809890-0400 INFO     CNAME maps.bhd.com.do bhddo.marketia.io
+2026-10-11T08:32:27.810602-0400 INFO     CNAME bhddo.marketia.io collector-7-12.marketia.io
+2026-10-11T08:32:27.810722-0400 INFO     CNAME collector-7-12.marketia.io collector-7-664297330.us-east-1.elb.amazonaws.com
+2026-10-11T08:32:27.810807-0400 INFO     A collector-7-664297330.us-east-1.elb.amazonaws.com 184.194.92.249
+2026-10-11T08:32:27.810900-0400 INFO     A collector-7-664297330.us-east-1.elb.amazonaws.com 34.225.136.5
+2026-10-11T08:32:27.810980-0400 INFO     A collector-7-664297330.us-east-1.elb.amazonaws.com 98.85.110.67
+2026-10-11T08:32:27.811118-0400 INFO     CNAME maps.bhd.com.do bhddo.marketia.io
+2026-10-11T08:32:27.811195-0400 INFO     CNAME bhddo.marketia.io collector-7-12.marketia.io
+2026-10-11T08:32:27.811284-0400 INFO     CNAME collector-7-12.marketia.io collector-7-664297330.us-east-1.elb.amazonaws.com
+2026-10-11T08:32:27.811413-0400 INFO     AAAA collector-7-664297330.us-east-1.elb.amazonaws.com 2600:1f18:18ef:ed10:d0e3:4f7d:4d2f:120b
+2026-10-11T08:32:27.811523-0400 INFO     AAAA collector-7-664297330.us-east-1.elb.amazonaws.com 2600:1f18:18ef:ed12:1c49:f5c5:7a40:df54
+2026-10-11T08:32:27.811611-0400 INFO     AAAA collector-7-664297330.us-east-1.elb.amazonaws.com 2600:1f18:18ef:ed11:56e9:17b7:25bc:1ef6
+2026-10-11T08:34:24.906613-0400 INFO     A ns1.bhd.com.do 40.90.4.3
+2026-10-11T08:34:24.906925-0400 INFO     A ns1.bhd.com.do 64.4.48.3
+2026-10-11T08:34:24.907024-0400 INFO     A ns1.bhd.com.do 13.107.24.3
+2026-10-11T08:34:24.907110-0400 INFO     A ns1.bhd.com.do 13.107.160.3
+2026-10-11T08:34:25.498510-0400 INFO     A ns2.bhd.com.do 40.90.4.1
+2026-10-11T08:34:25.498882-0400 INFO     A ns2.bhd.com.do 64.4.48.1
+2026-10-11T08:34:25.499091-0400 INFO     A ns2.bhd.com.do 13.107.24.1
+2026-10-11T08:34:25.499203-0400 INFO     A ns2.bhd.com.do 13.107.160.1
+2026-10-11T08:37:32.565064-0400 INFO     CNAME qa.bhd.com.do dwphy9ibosvh6.cloudfront.net
+2026-10-11T08:37:32.565429-0400 INFO     A dwphy9ibosvh6.cloudfront.net 13.224.30.99
+2026-10-11T08:37:32.565538-0400 INFO     A dwphy9ibosvh6.cloudfront.net 13.224.30.87
+2026-10-11T08:37:32.565640-0400 INFO     A dwphy9ibosvh6.cloudfront.net 13.224.30.96
+2026-10-11T08:37:32.565808-0400 INFO     A dwphy9ibosvh6.cloudfront.net 13.224.30.64
+2026-10-11T08:37:32.565906-0400 INFO     CNAME qa.bhd.com.do dwphy9ibosvh6.cloudfront.net
+2026-10-11T08:37:32.565970-0400 INFO     AAAA dwphy9ibosvh6.cloudfront.net 2600:9000:2164:5800:1:fd84:9680:93a1
+2026-10-11T08:37:32.566065-0400 INFO     AAAA dwphy9ibosvh6.cloudfront.net 2600:9000:2164:de00:1:fd84:9680:93a1
+2026-10-11T08:37:32.566122-0400 INFO     AAAA dwphy9ibosvh6.cloudfront.net 2600:9000:2164:8600:1:fd84:9680:93a1
+2026-10-11T08:37:32.566162-0400 INFO     AAAA dwphy9ibosvh6.cloudfront.net 2600:9000:2164:ce00:1:fd84:9680:93a1
+2026-10-11T08:37:32.566239-0400 INFO     AAAA dwphy9ibosvh6.cloudfront.net 2600:9000:2164:6a00:1:fd84:9680:93a1
+2026-10-11T08:37:32.566767-0400 INFO     AAAA dwphy9ibosvh6.cloudfront.net 2600:9000:2164:3000:1:fd84:9680:93a1
+2026-10-11T08:37:32.566868-0400 INFO     AAAA dwphy9ibosvh6.cloudfront.net 2600:9000:2164:3800:1:fd84:9680:93a1
+2026-10-11T08:37:32.566920-0400 INFO     AAAA dwphy9ibosvh6.cloudfront.net 2600:9000:2164:f600:1:fd84:9680:93a1
+2026-10-11T08:38:44.544430-0400 INFO     CNAME search.bhd.com.do bhd-search-app-lb-1920496765.us-east-1.elb.amazonaws.com
+2026-10-11T08:38:44.545125-0400 INFO     A bhd-search-app-lb-1920496765.us-east-1.elb.amazonaws.com 52.71.123.149
+2026-10-11T08:38:44.545186-0400 INFO     A bhd-search-app-lb-1920496765.us-east-1.elb.amazonaws.com 13.216.5.177
+2026-10-11T08:39:21.176939-0400 INFO     A smc.bhd.com.do 204.126.128.22
+2026-10-11T08:39:21.177451-0400 INFO     A smc.bhd.com.do 204.126.129.22
+2026-10-11T08:40:03.790485-0400 INFO     CNAME static.bhd.com.do d2jcohyt1gznyn.cloudfront.net
+2026-10-11T08:40:03.790816-0400 INFO     A d2jcohyt1gznyn.cloudfront.net 13.224.30.8
+2026-10-11T08:40:03.790932-0400 INFO     A d2jcohyt1gznyn.cloudfront.net 13.224.30.30
+2026-10-11T08:40:03.791104-0400 INFO     A d2jcohyt1gznyn.cloudfront.net 13.224.30.114
+2026-10-11T08:40:03.791195-0400 INFO     A d2jcohyt1gznyn.cloudfront.net 13.224.30.102
+2026-10-11T08:40:03.791280-0400 INFO     CNAME static.bhd.com.do d2jcohyt1gznyn.cloudfront.net
+2026-10-11T08:40:03.791378-0400 INFO     AAAA d2jcohyt1gznyn.cloudfront.net 2600:9000:2164:2e00:f:6a1a:3c0:93a1
+2026-10-11T08:40:03.791459-0400 INFO     AAAA d2jcohyt1gznyn.cloudfront.net 2600:9000:2164:9e00:f:6a1a:3c0:93a1
+2026-10-11T08:40:03.791536-0400 INFO     AAAA d2jcohyt1gznyn.cloudfront.net 2600:9000:2164:5400:f:6a1a:3c0:93a1
+2026-10-11T08:40:03.791620-0400 INFO     AAAA d2jcohyt1gznyn.cloudfront.net 2600:9000:2164:6c00:f:6a1a:3c0:93a1
+2026-10-11T08:40:03.791697-0400 INFO     AAAA d2jcohyt1gznyn.cloudfront.net 2600:9000:2164:b400:f:6a1a:3c0:93a1
+2026-10-11T08:40:03.791774-0400 INFO     AAAA d2jcohyt1gznyn.cloudfront.net 2600:9000:2164:4600:f:6a1a:3c0:93a1
+2026-10-11T08:40:03.791851-0400 INFO     AAAA d2jcohyt1gznyn.cloudfront.net 2600:9000:2164:dc00:f:6a1a:3c0:93a1
+2026-10-11T08:40:03.791927-0400 INFO     AAAA d2jcohyt1gznyn.cloudfront.net 2600:9000:2164:1200:f:6a1a:3c0:93a1
+2026-10-11T08:40:18.228104-0400 INFO     A suppliers.bhd.com.do 204.126.128.156
+2026-10-11T08:40:18.228718-0400 INFO     A suppliers.bhd.com.do 204.126.129.156
+2026-10-11T08:42:30.362637-0400 INFO     CNAME w.bhd.com.do wup-c803f5ba.us.v2.we-stats.com
+2026-10-11T08:42:30.363550-0400 INFO     A wup-c803f5ba.us.v2.we-stats.com 4.249.171.212
+2026-10-11T08:43:37.353572-0400 INFO     A ws1.bhd.com.do 204.126.128.84
+2026-10-11T08:43:37.353853-0400 INFO     A ws1.bhd.com.do 204.126.129.84
+2026-10-11T08:43:49.476113-0400 INFO     A www.bhd.com.do 52.1.2.184
+2026-10-11T08:43:49.476595-0400 INFO     A www.bhd.com.do 3.221.78.179
+2026-10-11T08:44:26.753116-0400 INFO 126 Records Found
+2026-10-11T08:44:26.756100-0400 INFO Completed enumeration for domain: bhd.com.do
